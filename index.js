@@ -20,10 +20,10 @@ function sayHiToGrandma(string) {
   var shout = console.log("YES INDEED!");
   var love = console.log("I love you too, Grandma.");
 
-  if (string === string.lowercase) {
+  if (string === string.toLowerCase()) {
     return logWhisper(whisper)
   }
-  else if (string === string.uppercase) {
+  else if (string === string.toUpperCase()) {
     return logShout(shout)
   }
   else if (string === "I love you") {
